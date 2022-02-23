@@ -167,3 +167,8 @@
 /* GenericUnderline */ .chroma .gl {  }
 /* TextWhitespace */ .chroma .w {  }
 }
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -2,6 +2,7 @@ baseURL: 'https://blog.kielbowi.cz'
 title: that blog you just clicked at
 theme: etch
 languageCode: en-US
+enableEmoji: true
 enableInlineShortcodes: true
 pygmentsCodeFences: true
 pygmentsUseClasses: true
@@ -24,6 +25,10 @@ menu:
       title: about
       url: /about/
       weight: 20
+    - identifier: rss
+      name: RSS
+      title: RSS
+      url: /index.xml
 
 permalinks:
   posts: '/:title/'
